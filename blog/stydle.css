@@ -46,66 +46,6 @@ body {
     background: rgba(255, 255, 255, 0.3);
 }
 
-/* 关于我 */
-.about {
-    background: #f0f0f0;
-    padding: 3rem 0;
-}
-
-.about h2 {
-    color: #2575fc;
-}
-
-/* 技能 */
-.skills {
-    background: white;
-    padding: 3rem 0;
-}
-
-.skill-item {
-    background: #2575fc;
-    color: white;
-    padding: 1rem 2rem;
-    margin: 0.5rem;
-    display: inline-block;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-.skill-item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* 项目 */
-.projects {
-    background: #f0f0f0;
-    padding: 3rem 0;
-}
-
-.project {
-    background: white;
-    padding: 2rem;
-    margin: 1rem 0;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.project h3 {
-    color: #2575fc;
-}
-
-.project a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: #2575fc;
-    text-decoration: none;
-}
-
-.project a:hover {
-    text-decoration: underline;
-}
-
 /* 底部 */
 .footer {
     background: #333;
@@ -120,9 +60,5 @@ body {
     .social-links {
         flex-direction: column;
         align-items: center;
-    }
-
-    .skill-item {
-        margin: 0.5rem 0;
     }
 }
